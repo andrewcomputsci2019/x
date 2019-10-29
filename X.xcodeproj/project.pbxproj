@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		747781C52368EED000D0207C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 747781C42368EED000D0207C /* main.c */; };
+		747781E32368F12800D0207C /* second File.c in Sources */ = {isa = PBXBuildFile; fileRef = 747781E22368F12800D0207C /* second File.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		747781C12368EED000D0207C /* X */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = X; sourceTree = BUILT_PRODUCTS_DIR; };
 		747781C42368EED000D0207C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		747781E12368F12800D0207C /* second File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "second File.h"; path = "../../y2/Y/second File.h"; sourceTree = "<group>"; };
+		747781E22368F12800D0207C /* second File.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "second File.c"; path = "../../y2/Y/second File.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		747781C32368EED000D0207C /* X */ = {
 			isa = PBXGroup;
 			children = (
+				747781E22368F12800D0207C /* second File.c */,
+				747781E12368F12800D0207C /* second File.h */,
 				747781C42368EED000D0207C /* main.c */,
 			);
 			path = X;
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747781E32368F12800D0207C /* second File.c in Sources */,
 				747781C52368EED000D0207C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
